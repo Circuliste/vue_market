@@ -1,0 +1,421 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20210210.163608.16932.0.001.json",
+    "dumpEventTime": "2021-02-10T16:36:08Z",
+    "dumpEventTimeStamp": "1612946168295",
+    "processId": 16932,
+    "cwd": "D:\\workproject\\vuemarket\\vue_market",
+    "commandLine": [
+      "node",
+      "C:\\Users\\87046\\AppData\\Roaming\\npm\\\\node_modules\\@vue\\cli\\bin\\vue.js",
+      "ui"
+    ],
+    "nodejsVersion": "v12.13.1",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.13.1",
+      "v8": "7.7.299.13-node.16",
+      "uv": "1.33.1",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019c",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "lts": "Erbium",
+      "headersUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.13.1/node-v12.13.1.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.13.1/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Home China",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  ",
+        "speed": 2096,
+        "user": 41960437,
+        "nice": 0,
+        "sys": 37777796,
+        "idle": 548530703,
+        "irq": 5184859
+      },
+      {
+        "model": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  ",
+        "speed": 2096,
+        "user": 27912703,
+        "nice": 0,
+        "sys": 14719843,
+        "idle": 585636078,
+        "irq": 521406
+      },
+      {
+        "model": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  ",
+        "speed": 2096,
+        "user": 51064062,
+        "nice": 0,
+        "sys": 28764703,
+        "idle": 548439859,
+        "irq": 315562
+      },
+      {
+        "model": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  ",
+        "speed": 2096,
+        "user": 31516687,
+        "nice": 0,
+        "sys": 22734843,
+        "idle": 574017093,
+        "irq": 204843
+      },
+      {
+        "model": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  ",
+        "speed": 2096,
+        "user": 43615484,
+        "nice": 0,
+        "sys": 21777765,
+        "idle": 562875375,
+        "irq": 258625
+      },
+      {
+        "model": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  ",
+        "speed": 2096,
+        "user": 31820750,
+        "nice": 0,
+        "sys": 21654125,
+        "idle": 574793750,
+        "irq": 167515
+      },
+      {
+        "model": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  ",
+        "speed": 2096,
+        "user": 43104000,
+        "nice": 0,
+        "sys": 23579921,
+        "idle": 561584703,
+        "irq": 279406
+      },
+      {
+        "model": "AMD Ryzen 5 3550H with Radeon Vega Mobile Gfx  ",
+        "speed": 2096,
+        "user": 38506437,
+        "nice": 0,
+        "sys": 22535515,
+        "idle": 567226656,
+        "irq": 505234
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "fe80::851c:2cb3:2722:8332",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 16
+      },
+      {
+        "name": "VMware Network Adapter VMnet1",
+        "internal": false,
+        "mac": "00:50:56:c0:00:01",
+        "address": "192.168.221.1",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "VMware Network Adapter VMnet8",
+        "internal": false,
+        "mac": "00:50:56:c0:00:08",
+        "address": "fe80::ec19:f24c:4602:934b",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 11
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-H5VLJQC"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff717e31729",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff717e35b4c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff717e34b08",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff717f2369b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7187282de",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff718710321",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7185ddbec",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7185e5cf1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7185db353",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7185d9b24",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff7185fadf5",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff718366e19",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff718b5404d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x000003b7ea4fafe9",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 50847744,
+    "totalCommittedMemory": 50847744,
+    "usedMemory": 46883752,
+    "availableMemory": 2151695792,
+    "memoryLimit": 2197815296,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047472,
+        "available": 16
+      },
+      "old_space": {
+        "memorySize": 39956480,
+        "committedMemory": 39956480,
+        "capacity": 39892400,
+        "used": 36854216,
+        "available": 3038184
+      },
+      "code_space": {
+        "memorySize": 950272,
+        "committedMemory": 950272,
+        "capacity": 849600,
+        "used": 816320,
+        "available": 33280
+      },
+      "map_space": {
+        "memorySize": 2887680,
+        "committedMemory": 2887680,
+        "capacity": 2877216,
+        "used": 2497520,
+        "available": 379696
+      },
+      "large_object_space": {
+        "memorySize": 5361664,
+        "committedMemory": 5361664,
+        "capacity": 5315256,
+        "used": 5315256,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 380928,
+        "committedMemory": 380928,
+        "capacity": 320672,
+        "used": 320672,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 30.875,
+    "kernelCpuSeconds": 7.64,
+    "cpuConsumptionPercent": 0.0579068,
+    "maxRss": 158937088,
+    "pageFaults": {
+      "IORequired": 922292,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 17944,
+      "writes": 128
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "=::": "::\\",
+    "=C:": "C:\\",
+    "=D:": "D:\\workproject\\vuemarket\\vue_market",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "APPDATA": "C:\\Users\\87046\\AppData\\Roaming",
+    "asl.log": "Destination=file",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-H5VLJQC",
+    "ComSpec": "C:\\Windows\\system32\\cmd.exe",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FORCE_COLOR": "1",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\87046",
+    "JAVA_HOME": "D:\\software\\java",
+    "LOCALAPPDATA": "C:\\Users\\87046\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-H5VLJQC",
+    "npm_config_registry": "https://registry.npm.taobao.org",
+    "NUMBER_OF_PROCESSORS": "8",
+    "OneDrive": "C:\\Users\\87046\\OneDrive",
+    "OneDriveConsumer": "C:\\Users\\87046\\OneDrive",
+    "OS": "Windows_NT",
+    "Path": "D:\\software\\xshell6\\;D:\\software\\python3\\Scripts\\;D:\\software\\python3\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;D:\\software\\nodejs\\;D:\\software\\php7.2;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\Calibre2\\;C:\\Program Files\\MongoDB\\Server\\4.2\\bin;D:\\software\\java\\bin;D:\\software\\Git\\cmd;C:\\Users\\87046\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\87046\\AppData\\Roaming\\npm;C:\\Users\\87046\\AppData\\Roaming\\Composer\\vendor\\bin;D:\\software\\Microsoft VS Code\\bin",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC;.PY;.PYW",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "AMD64 Family 23 Model 24 Stepping 1, AuthenticAMD",
+    "PROCESSOR_LEVEL": "23",
+    "PROCESSOR_REVISION": "1801",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "SESSIONNAME": "Console",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\Windows",
+    "TEMP": "C:\\Users\\87046\\AppData\\Local\\Temp",
+    "TMP": "C:\\Users\\87046\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-H5VLJQC",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-H5VLJQC",
+    "USERNAME": "87046",
+    "USERPROFILE": "C:\\Users\\87046",
+    "VUE_APP_CLI_UI_URL": "",
+    "VUE_CLI_API_MODE": "true",
+    "VUE_CLI_CONTEXT": "D:\\workproject\\vuemarket\\vue_market",
+    "VUE_CLI_IPC": "vue-cli-mcVthK6tu",
+    "VUE_CLI_PROJECT_ID": "lcUDwjeWYF",
+    "windir": "C:\\Windows",
+    "WXDRIVE_START_ARGS": "--wxdrive-setting=0 --disable-gpu --disable-software-rasterizer --enable-features=NetworkServiceInProcess",
+    "YARN_NPM_REGISTRY_SERVER": "https://registry.npm.taobao.org",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "D:\\software\\nodejs\\node.exe",
+    "C:\\Windows\\SYSTEM32\\ntdll.dll",
+    "C:\\Windows\\System32\\KERNEL32.DLL",
+    "C:\\Windows\\System32\\KERNELBASE.dll",
+    "C:\\Windows\\System32\\WS2_32.dll",
+    "C:\\Windows\\System32\\RPCRT4.dll",
+    "C:\\Windows\\System32\\ADVAPI32.dll",
+    "C:\\Windows\\SYSTEM32\\dbghelp.dll",
+    "C:\\Windows\\System32\\ucrtbase.dll",
+    "C:\\Windows\\System32\\msvcrt.dll",
+    "C:\\Windows\\System32\\sechost.dll",
+    "C:\\Windows\\System32\\USER32.dll",
+    "C:\\Windows\\System32\\win32u.dll",
+    "C:\\Windows\\System32\\GDI32.dll",
+    "C:\\Windows\\System32\\gdi32full.dll",
+    "C:\\Windows\\System32\\msvcp_win.dll",
+    "C:\\Windows\\System32\\PSAPI.DLL",
+    "C:\\Windows\\System32\\CRYPT32.dll",
+    "C:\\Windows\\System32\\MSASN1.dll",
+    "C:\\Windows\\System32\\bcrypt.dll",
+    "C:\\Windows\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\Windows\\SYSTEM32\\USERENV.dll",
+    "C:\\Windows\\System32\\profapi.dll",
+    "C:\\Windows\\SYSTEM32\\WINMM.dll",
+    "C:\\Windows\\SYSTEM32\\winmmbase.dll",
+    "C:\\Windows\\System32\\cfgmgr32.dll",
+    "C:\\Windows\\System32\\bcryptPrimitives.dll",
+    "C:\\Windows\\System32\\IMM32.DLL",
+    "C:\\Windows\\System32\\powrprof.dll",
+    "C:\\Windows\\System32\\UMPDC.dll",
+    "C:\\Windows\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\Windows\\system32\\uxtheme.dll",
+    "C:\\Windows\\System32\\combase.dll",
+    "C:\\Windows\\system32\\mswsock.dll",
+    "C:\\Windows\\System32\\kernel.appcore.dll",
+    "C:\\Windows\\system32\\napinsp.dll",
+    "C:\\Windows\\system32\\pnrpnsp.dll",
+    "C:\\Windows\\SYSTEM32\\DNSAPI.dll",
+    "C:\\Windows\\System32\\NSI.dll",
+    "C:\\Windows\\System32\\winrnr.dll",
+    "C:\\Windows\\system32\\NLAapi.dll",
+    "C:\\Windows\\system32\\wshbth.dll",
+    "C:\\Program Files\\Bonjour\\mdnsNSP.dll",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\Windows\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\System32\\rasadhlp.dll",
+    "C:\\Windows\\System32\\fwpuclnt.dll"
+  ]
+}
